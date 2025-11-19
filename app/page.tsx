@@ -6,6 +6,7 @@ import Footer from "@/components/footer"
 import FilterButtons from "@/components/filter-buttons"
 import ShedCard from "@/components/shed-card"
 import { shedModels } from "@/lib/shed-data"
+import { Warehouse } from "lucide-react"
 
 export default function Home() {
   const [activeFilter, setActiveFilter] = useState("All")
@@ -20,8 +21,9 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="py-12">
-        <div className="container mx-auto px-6 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-balance mb-2 text-foreground">Our Work</h1>
+        <div className="flex flex-col gap-1 mx-auto text-center items-center">
+          <Warehouse className="w-16 h-16" />
+          <h1 className="mt-4 text-5xl md:text-6xl font-bold tracking-tight text-balance text-foreground">Our Work</h1>
           <p className="text-xl text-muted-foreground text-pretty leading-relaxed max-w-3xl mx-auto">
             Explore our collection of custom-built structures
           </p>

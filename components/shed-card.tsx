@@ -1,15 +1,16 @@
-import { Card, CardContent } from "@/components/ui/card"
-import Image from "next/image"
-import Link from "next/link"
+import { Card, CardContent } from "@/components/ui/card";
+import { ImageIcon } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 interface ShedCardProps {
   shed: {
-    id: number
-    title: string
-    subtitle: string
-    image: string
-    model: string
-  }
+    id: number;
+    title: string;
+    subtitle: string;
+    image: string;
+    model: string;
+  };
 }
 
 export default function ShedCard({ shed }: ShedCardProps) {
@@ -28,13 +29,19 @@ export default function ShedCard({ shed }: ShedCardProps) {
             {shed.model}
           </div>
         </div>
-        <CardContent className="p-5 pt-0 pb-7">
+        <CardContent className="p-5 pt-0 pb-6">
           <h3 className="text-2xl font-bold mb-2 text-foreground group-hover:text-primary transition-colors duration-300 text-balance">
             {shed.title}
           </h3>
-          <p className="text-muted-foreground leading-relaxed text-pretty text-sm line-clamp-2">{shed.subtitle}</p>
+          <p className="text-muted-foreground leading-relaxed text-pretty text-sm line-clamp-2">
+            {shed.subtitle}
+          </p>
+          <button className="flex items-center gap-3 mt-4 uppercase font-semibold px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-700/90 transition-colors">
+            <ImageIcon className="w-6 h-6" />
+            <span>See more pictures</span>
+          </button>
         </CardContent>
       </Card>
     </Link>
-  )
+  );
 }
