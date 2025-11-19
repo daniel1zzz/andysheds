@@ -8,7 +8,6 @@ interface ShedCardProps {
     title: string
     subtitle: string
     image: string
-    size: string
     model: string
   }
 }
