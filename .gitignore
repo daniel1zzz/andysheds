@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js build output
+.next/
+out/
+
+# Production
+/build
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js cache
+.next/cache
+
+# Mac system files
+.DS_Store
+
+# Vercel (si usas)
+.vercel/
+
+# Editor folders
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: JetBrains
+*.iml
+
+# Optional: npm debug
+npm-debug.log*
+
+# Optional: OS generated files
+Thumbs.db

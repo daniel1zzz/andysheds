@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Garden Shed",
+    "subtitle": "Perfect for storing your garden tools and equipment with style and durability",
+    "image": "/modern-wooden-garden-shed-with-windows.jpg",
+    "size": "10x12 ft",
+    "model": "Garden",
+    "gallery": [
+      "/modern-wooden-garden-shed-with-windows.jpg",
+      "/garden-shed-exterior-angle-view.jpg",
+      "/garden-shed-interior-storage.jpg",
+      "/garden-shed-door-detail.jpg",
+      "/garden-shed-window-detail.jpg",
+      "/garden-shed-roof-construction.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Workshop Pro",
+    "subtitle": "Spacious workspace for your projects with reinforced flooring and ample ventilation",
+    "image": "/large-workshop-shed-with-workbench.jpg",
+    "size": "12x16 ft",
+    "model": "Workshop",
+    "gallery": [
+      "/large-workshop-shed-with-workbench.jpg",
+      "/workshop-shed-workbench-area.jpg",
+      "/workshop-shed-tool-storage-wall.jpg",
+      "/workshop-shed-ventilation-system.jpg",
+      "/workshop-shed-electrical-outlets.jpg",
+      "/workshop-shed-flooring-detail.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Cottage Retreat",
+    "subtitle": "A cozy escape in your backyard with charming design and comfortable interior",
+    "image": "/charming-cottage-style-shed-with-porch.jpg",
+    "size": "10x14 ft",
+    "model": "Cottage",
+    "gallery": [
+      "/charming-cottage-style-shed-with-porch.jpg",
+      "/cottage-shed-porch-detail.jpg",
+      "/cottage-shed-cozy-interior.jpg",
+      "/cottage-shed-window-frames.jpg",
+      "/cottage-shed-siding-detail.jpg",
+      "/cottage-shed-entry-door.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Modern Studio",
+    "subtitle": "Contemporary design ideal for home offices, art studios, or personal gym space",
+    "image": "/modern-minimalist-studio-shed-with-large-windows.jpg",
+    "size": "12x20 ft",
+    "model": "Studio",
+    "gallery": [
+      "/modern-minimalist-studio-shed-with-large-windows.jpg",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Storage Barn",
+    "subtitle": "Maximum storage capacity with barn-style doors and loft space included",
+    "image": "/red-barn-style-storage-shed-with-double-doors.jpg",
+    "size": "14x20 ft",
+    "model": "Storage",
+    "gallery": [
+      "/red-barn-style-storage-shed-with-double-doors.jpg",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pool House",
+    "subtitle": "Elegant poolside structure with changing room and storage for pool supplies",
+    "image": "/elegant-pool-house-shed-with-french-doors.jpg",
+    "size": "10x16 ft",
+    "model": "Pool House",
+    "gallery": [
+      "/elegant-pool-house-shed-with-french-doors.jpg",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=600&width=800"
+    ]
+  }
+]
