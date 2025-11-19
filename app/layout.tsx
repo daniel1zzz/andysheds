@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Explore our gallery of custom-built sheds and outdoor structures. Quality craftsmanship for your backyard needs.",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/andysheds/favicon.svg",
   },
 }
 

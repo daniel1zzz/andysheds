@@ -15,7 +15,7 @@ interface ShedCardProps {
 
 export default function ShedCard({ shed }: ShedCardProps) {
   return (
-    <Link href={`/gallery/${shed.id}`}>
+    <Link href={`/gallery/?id=${shed.id}`}>
       <Card className="group overflow-hidden hover:shadow-2xl transition-all duration-500 border-border/50 hover:border-primary/20 p-0 cursor-pointer">
         <div className="relative aspect-4/3 overflow-hidden bg-muted rounded-t-lg">
           <Image

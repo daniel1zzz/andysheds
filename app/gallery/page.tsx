@@ -3,17 +3,25 @@
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { ArrowLeft, Share2, ZoomIn } from "lucide-react";
-import { useParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Lightbox from "@/components/lightbox";
 import { shedModels } from "@/lib/shed-data";
 
-export default function GalleryPage() {
-  const params = useParams();
-  const shedId = parseInt(params.id as string);
+export default function GalleryPageL() {
+  return (
+    <Suspense fallback={<div>Loading gallery...</div>}>
+      <GalleryPage />
+    </Suspense>
+  );
+}
+
+function GalleryPage() {
+  const search = useSearchParams();
+  const shedId = parseInt(search.get("id") || "0");
   const shed = shedModels.find((s) => s.id === shedId);
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
